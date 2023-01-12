@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4726D05C296A04100092F864 /* ContactsWithSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */; };
+		4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05D296A0A2F0092F864 /* NavigationViewController.swift */; };
+		4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05F296A0A990092F864 /* TabBarViewController.swift */; };
 		47E7F08129654E4600554456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7F08029654E4600554456 /* AppDelegate.swift */; };
 		47E7F08329654E4600554456 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7F08229654E4600554456 /* SceneDelegate.swift */; };
 		47E7F08829654E4600554456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E7F08629654E4600554456 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWithSectionsViewController.swift; sourceTree = "<group>"; };
+		4726D05D296A0A2F0092F864 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		4726D05F296A0A990092F864 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		47E7F07D29654E4600554456 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E7F08029654E4600554456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E7F08229654E4600554456 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,18 +68,37 @@
 		47E7F07F29654E4600554456 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				47E7F0962965521C00554456 /* Person.swift */,
+				47EBE70E29658108005FADE2 /* Models */,
 				47E7F08029654E4600554456 /* AppDelegate.swift */,
+				4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */,
 				47E7F08229654E4600554456 /* SceneDelegate.swift */,
 				47E7F08629654E4600554456 /* Main.storyboard */,
+				4726D05F296A0A990092F864 /* TabBarViewController.swift */,
+				4726D05D296A0A2F0092F864 /* NavigationViewController.swift */,
 				47E7F09A296574CA00554456 /* ContactDetailsViewController.swift */,
 				47E7F09429654F8F00554456 /* ContactsViewController.swift */,
-				47E7F098296554BB00554456 /* DataStore.swift */,
+				47EBE70D296580FA005FADE2 /* Services */,
 				47E7F08929654E4700554456 /* Assets.xcassets */,
 				47E7F08B29654E4700554456 /* LaunchScreen.storyboard */,
 				47E7F08E29654E4700554456 /* Info.plist */,
 			);
 			path = ContactList;
+			sourceTree = "<group>";
+		};
+		47EBE70D296580FA005FADE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				47E7F098296554BB00554456 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		47EBE70E29658108005FADE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47E7F0962965521C00554456 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +175,10 @@
 				47E7F08129654E4600554456 /* AppDelegate.swift in Sources */,
 				47E7F08329654E4600554456 /* SceneDelegate.swift in Sources */,
 				47E7F09B296574CA00554456 /* ContactDetailsViewController.swift in Sources */,
+				4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */,
+				4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */,
 				47E7F0972965521C00554456 /* Person.swift in Sources */,
+				4726D05C296A04100092F864 /* ContactsWithSectionsViewController.swift in Sources */,
 				47E7F099296554BB00554456 /* DataStore.swift in Sources */,
 				47E7F09529654F8F00554456 /* ContactsViewController.swift in Sources */,
 			);

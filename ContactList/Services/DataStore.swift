@@ -5,6 +5,8 @@
 //  Created by Дмитрий Поляков on 04.01.2023.
 //
 
+import UIKit
+
 let firstNames: [String] = [
     "James",
     "Robert",
@@ -105,7 +107,8 @@ let firstNames: [String] = [
     "Janet",
     "Catherine",
     "Maria",
-    "Heather"
+    "Heather",
+    "Natalia"
 ]
 
 let lastNames: [String] = [
@@ -208,7 +211,8 @@ let lastNames: [String] = [
     "Long",
     "Ross",
     "Foster",
-    "Jimenez"
+    "Jimenez",
+    "Chernyh"
 ]
 
 let phoneNumbers: [String] = [
@@ -325,7 +329,7 @@ let emails: [String] = [
 func getPersons() -> [Person] {
     var persons: [Person] = []
     
-    for _ in 10...100 {
+    for _ in 10...30 {
         let firstName = firstNames.randomElement() ?? ""
         let lastName = lastNames.randomElement() ?? ""
         
