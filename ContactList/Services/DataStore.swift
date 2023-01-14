@@ -329,7 +329,7 @@ let emails: [String] = [
 func getPersons() -> [Person] {
     var persons: [Person] = []
     
-    for _ in 10...30 {
+    for _ in 1...50 {
         let firstName = firstNames.randomElement() ?? ""
         let lastName = lastNames.randomElement() ?? ""
         

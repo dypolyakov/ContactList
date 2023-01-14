@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4726D05C296A04100092F864 /* ContactsWithSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */; };
+		4726D05C296A04100092F864 /* ContactsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */; };
 		4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05D296A0A2F0092F864 /* NavigationViewController.swift */; };
 		4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05F296A0A990092F864 /* TabBarViewController.swift */; };
 		47E7F08129654E4600554456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7F08029654E4600554456 /* AppDelegate.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWithSectionsViewController.swift; sourceTree = "<group>"; };
+		4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailsViewController.swift; sourceTree = "<group>"; };
 		4726D05D296A0A2F0092F864 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		4726D05F296A0A990092F864 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		47E7F07D29654E4600554456 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +70,7 @@
 			children = (
 				47EBE70E29658108005FADE2 /* Models */,
 				47E7F08029654E4600554456 /* AppDelegate.swift */,
-				4726D05B296A04100092F864 /* ContactsWithSectionsViewController.swift */,
+				4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */,
 				47E7F08229654E4600554456 /* SceneDelegate.swift */,
 				47E7F08629654E4600554456 /* Main.storyboard */,
 				4726D05F296A0A990092F864 /* TabBarViewController.swift */,
@@ -178,7 +178,7 @@
 				4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */,
 				4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */,
 				47E7F0972965521C00554456 /* Person.swift in Sources */,
-				4726D05C296A04100092F864 /* ContactsWithSectionsViewController.swift in Sources */,
+				4726D05C296A04100092F864 /* ContactsDetailsViewController.swift in Sources */,
 				47E7F099296554BB00554456 /* DataStore.swift in Sources */,
 				47E7F09529654F8F00554456 /* ContactsViewController.swift in Sources */,
 			);
