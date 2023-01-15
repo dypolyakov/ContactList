@@ -7,12 +7,12 @@
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+final class TabBarViewController: UITabBarController {
     
-    
-    
-    let personList = DataStore.getPerson()
+    // MARK: - Private Properties
+    private let personList = DataStore.getPerson()
 
+    // MARK: - Override Methods
     override func viewDidLoad() {
         
         guard let contactsVC = viewControllers?.first as? ContactsViewController else { return }

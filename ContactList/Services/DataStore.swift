@@ -5,9 +5,10 @@
 //  Created by Дмитрий Поляков on 04.01.2023.
 //
 
-class DataStore {
+final class DataStore {
     
-    static let firstNames = [
+    // MARK: - Private Properties
+    private static let firstNames = [
         "James",
         "Robert",
         "John",
@@ -111,7 +112,7 @@ class DataStore {
         "Natalia"
     ]
 
-    static let lastNames = [
+    private static let lastNames = [
         "Smith",
         "Johnson",
         "Williams",
@@ -215,7 +216,7 @@ class DataStore {
         "Chernyh"
     ]
 
-    static let phoneNumbers = [
+    private static let phoneNumbers = [
         "+7 (949) 909-22-13",
         "+7 (956) 912-38-39",
         "+7 (900) 888-90-78",
@@ -318,7 +319,7 @@ class DataStore {
         "+7 (948) 582-36-21"
     ]
 
-    static let emails = [
+    private static let emails = [
         "gmail.com",
         "yandex.ru",
         "yahoo.com",
@@ -326,6 +327,7 @@ class DataStore {
         "outlook.com"
     ]
     
+    // MARK: - Public Methods
     static func getPerson() -> [Person] {
         
         var persons: [Person] = []
@@ -348,5 +350,3 @@ class DataStore {
     }
     
 }
-
-

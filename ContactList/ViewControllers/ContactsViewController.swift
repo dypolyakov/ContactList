@@ -7,10 +7,12 @@
 
 import UIKit
 
-class ContactsViewController: UITableViewController {
+final class ContactsViewController: UITableViewController {
     
+    // MARK: - Public Properties
     var personList: [Person]!
 
+    // MARK: - Override Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
