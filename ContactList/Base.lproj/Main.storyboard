@@ -166,7 +166,7 @@
         <!--Contacts-->
         <scene sceneID="1NL-cR-q39">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PUs-Ag-mzi" customClass="NavigationViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PUs-Ag-mzi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Contacts" image="person.circle.fill" catalog="system" id="gaa-hY-1y7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="9tK-eX-FOe">

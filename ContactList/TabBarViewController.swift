@@ -9,7 +9,9 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
     
-    let personList = getPersons()
+    
+    
+    let personList = DataStore.getPerson()
 
     override func viewDidLoad() {
         
@@ -20,5 +22,4 @@ class TabBarViewController: UITabBarController {
         contactsDetailsVC.personList = personList
         
     }
-
 }

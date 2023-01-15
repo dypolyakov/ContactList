@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4726D05C296A04100092F864 /* ContactsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */; };
-		4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05D296A0A2F0092F864 /* NavigationViewController.swift */; };
 		4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D05F296A0A990092F864 /* TabBarViewController.swift */; };
 		47E7F08129654E4600554456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7F08029654E4600554456 /* AppDelegate.swift */; };
 		47E7F08329654E4600554456 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7F08229654E4600554456 /* SceneDelegate.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailsViewController.swift; sourceTree = "<group>"; };
-		4726D05D296A0A2F0092F864 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		4726D05F296A0A990092F864 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		47E7F07D29654E4600554456 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E7F08029654E4600554456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				47E7F08229654E4600554456 /* SceneDelegate.swift */,
 				47E7F08629654E4600554456 /* Main.storyboard */,
 				4726D05F296A0A990092F864 /* TabBarViewController.swift */,
-				4726D05D296A0A2F0092F864 /* NavigationViewController.swift */,
 				47E7F09A296574CA00554456 /* ContactDetailsViewController.swift */,
 				47E7F09429654F8F00554456 /* ContactsViewController.swift */,
 				47EBE70D296580FA005FADE2 /* Services */,
@@ -175,7 +172,6 @@
 				47E7F08129654E4600554456 /* AppDelegate.swift in Sources */,
 				47E7F08329654E4600554456 /* SceneDelegate.swift in Sources */,
 				47E7F09B296574CA00554456 /* ContactDetailsViewController.swift in Sources */,
-				4726D05E296A0A2F0092F864 /* NavigationViewController.swift in Sources */,
 				4726D060296A0A990092F864 /* TabBarViewController.swift in Sources */,
 				47E7F0972965521C00554456 /* Person.swift in Sources */,
 				4726D05C296A04100092F864 /* ContactsDetailsViewController.swift in Sources */,
