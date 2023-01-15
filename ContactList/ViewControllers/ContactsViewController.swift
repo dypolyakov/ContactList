@@ -19,11 +19,13 @@ final class ContactsViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         personList.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "contact", for: indexPath)
         let person = personList[indexPath.row]
         var content = cell.defaultContentConfiguration()
@@ -37,10 +39,11 @@ final class ContactsViewController: UITableViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         guard let contactDetailsVC = segue.destination as? ContactDetailsViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         contactDetailsVC.person = personList[indexPath.row]
+        
     }
     
-
 }

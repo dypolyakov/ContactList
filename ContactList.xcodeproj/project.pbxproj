@@ -69,10 +69,10 @@
 		479B835729747673000E2334 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */,
 				4726D05F296A0A990092F864 /* TabBarViewController.swift */,
-				47E7F09A296574CA00554456 /* ContactDetailsViewController.swift */,
 				47E7F09429654F8F00554456 /* ContactsViewController.swift */,
+				47E7F09A296574CA00554456 /* ContactDetailsViewController.swift */,
+				4726D05B296A04100092F864 /* ContactsDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
