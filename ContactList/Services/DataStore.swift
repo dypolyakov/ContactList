@@ -7,8 +7,10 @@
 
 final class DataStore {
     
+    static let shared = DataStore()
+    
     // MARK: - Private Properties
-    private static let firstNames = [
+    let firstNames = [
         "James",
         "Robert",
         "John",
@@ -112,7 +114,7 @@ final class DataStore {
         "Natalia"
     ]
 
-    private static let lastNames = [
+    let lastNames = [
         "Smith",
         "Johnson",
         "Williams",
@@ -216,7 +218,7 @@ final class DataStore {
         "Chernyh"
     ]
 
-    private static let phoneNumbers = [
+    let phoneNumbers = [
         "+7 (949) 909-22-13",
         "+7 (956) 912-38-39",
         "+7 (900) 888-90-78",
@@ -319,7 +321,7 @@ final class DataStore {
         "+7 (948) 582-36-21"
     ]
 
-    private static let emails = [
+    let emails = [
         "gmail.com",
         "yandex.ru",
         "yahoo.com",
@@ -327,26 +329,6 @@ final class DataStore {
         "outlook.com"
     ]
     
-    // MARK: - Public Methods
-    static func getPerson() -> [Person] {
-        
-        var persons: [Person] = []
-
-        for _ in 1...50 {
-            let firstName = firstNames.randomElement() ?? ""
-            let lastName = lastNames.randomElement() ?? ""
-
-            let person = Person(
-                firstName: firstName,
-                lastName: lastName,
-                phoneNumber: phoneNumbers.randomElement() ?? "",
-                email: "\(firstName.lowercased())\(lastName.lowercased())@\(emails.randomElement() ?? "")"
-            )
-
-            persons.append(person)
-        }
-        
-        return persons
-    }
+    private init() {}
     
 }

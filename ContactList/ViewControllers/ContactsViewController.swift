@@ -12,11 +12,6 @@ final class ContactsViewController: UITableViewController {
     // MARK: - Public Properties
     var personList: [Person]!
 
-    // MARK: - Override Methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
